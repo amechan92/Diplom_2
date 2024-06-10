@@ -1,0 +1,90 @@
+{
+  "uid" : "e1daa94579dec6a7",
+  "name" : "testCreateExistingUser",
+  "fullName" : "tests.CreateUserTests.testCreateExistingUser",
+  "historyId" : "38394d161f535eecad64a8c38acc0d13",
+  "time" : {
+    "start" : 1718033964947,
+    "stop" : 1718033965402,
+    "duration" : 455
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Try to register a user with an existing email",
+      "time" : {
+        "start" : 1718033964949,
+        "stop" : 1718033965402,
+        "duration" : 453
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "testuser@example.com"
+      }, {
+        "name" : "password",
+        "value" : "password"
+      }, {
+        "name" : "name",
+        "value" : "Test User"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.CreateUserTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCreateExistingUser"
+  }, {
+    "name" : "suite",
+    "value" : "tests.CreateUserTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E79REGH"
+  }, {
+    "name" : "thread",
+    "value" : "15928@DESKTOP-E79REGH.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1daa94579dec6a7.json",
+  "parameterValues" : [ ]
+}

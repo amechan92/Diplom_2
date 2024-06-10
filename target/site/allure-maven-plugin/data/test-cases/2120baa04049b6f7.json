@@ -1,0 +1,81 @@
+{
+  "uid" : "2120baa04049b6f7",
+  "name" : "getOrderForUnauthorizedUser",
+  "fullName" : "tests.OrderTests.getOrderForUnauthorizedUser",
+  "historyId" : "f4d897a8c81fdc5d0cba94c3b36b120c",
+  "time" : {
+    "start" : 1718033968756,
+    "stop" : 1718033969179,
+    "duration" : 423
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get order for unauthorized user",
+      "time" : {
+        "start" : 1718033968756,
+        "stop" : 1718033969179,
+        "duration" : 423
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.OrderTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "getOrderForUnauthorizedUser"
+  }, {
+    "name" : "suite",
+    "value" : "tests.OrderTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E79REGH"
+  }, {
+    "name" : "thread",
+    "value" : "15928@DESKTOP-E79REGH.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2120baa04049b6f7.json",
+  "parameterValues" : [ ]
+}

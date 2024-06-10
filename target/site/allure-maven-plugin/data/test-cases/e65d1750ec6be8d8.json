@@ -1,0 +1,129 @@
+{
+  "uid" : "e65d1750ec6be8d8",
+  "name" : "testUpdateUserNameWithoutAuthorization",
+  "fullName" : "tests.UpdateUserTest.testUpdateUserNameWithoutAuthorization",
+  "historyId" : "6c9781df77dfdf94bca800baee912787",
+  "time" : {
+    "start" : 1718033984935,
+    "stop" : 1718033987987,
+    "duration" : 3052
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create user",
+      "time" : {
+        "start" : 1718033984935,
+        "stop" : 1718033985376,
+        "duration" : 441
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Login user",
+      "time" : {
+        "start" : 1718033985376,
+        "stop" : 1718033985807,
+        "duration" : 431
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Update user name without authorization",
+      "time" : {
+        "start" : 1718033985807,
+        "stop" : 1718033987399,
+        "duration" : 1592
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Unauthorized Name"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Delete user",
+      "time" : {
+        "start" : 1718033987399,
+        "stop" : 1718033987987,
+        "duration" : 588
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.UpdateUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testUpdateUserNameWithoutAuthorization"
+  }, {
+    "name" : "suite",
+    "value" : "tests.UpdateUserTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E79REGH"
+  }, {
+    "name" : "thread",
+    "value" : "15928@DESKTOP-E79REGH.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e65d1750ec6be8d8.json",
+  "parameterValues" : [ ]
+}

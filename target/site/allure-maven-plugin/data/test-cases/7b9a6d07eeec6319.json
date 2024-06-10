@@ -1,0 +1,84 @@
+{
+  "uid" : "7b9a6d07eeec6319",
+  "name" : "getOrderForAuthorizedUser",
+  "fullName" : "tests.OrderTests.getOrderForAuthorizedUser",
+  "historyId" : "ee887c6b6e7b289e01bfa7ad3a341706",
+  "time" : {
+    "start" : 1718033969180,
+    "stop" : 1718033970175,
+    "duration" : 995
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get order for authorized user",
+      "time" : {
+        "start" : 1718033969620,
+        "stop" : 1718033970175,
+        "duration" : 555
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZTU3OWYwOWVkMjgwMDAxYjNjMWFjNiIsImlhdCI6MTcxODAzMzk3MCwiZXhwIjoxNzE4MDM1MTcwfQ.vn_yj0pwumg0NmASmnKNOna9zggXlMC70rmA7WDLyRY"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.OrderTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "getOrderForAuthorizedUser"
+  }, {
+    "name" : "suite",
+    "value" : "tests.OrderTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E79REGH"
+  }, {
+    "name" : "thread",
+    "value" : "15928@DESKTOP-E79REGH.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b9a6d07eeec6319.json",
+  "parameterValues" : [ ]
+}
